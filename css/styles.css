@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+a.nav-link.wappbuttonmenu {
+	text-decoration: none;
+	color: green !important;
+}
+a.nav-link.wappbuttonmenu:hover {
+	color: #05c905 !important;
+}
+.modalhome {
+	pointer-events: auto;
+    height: 540px;
+    width: 600px;
+    background: url('../img/eliis.jpg') no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+button.btn-close{
+	float: right;
+	-webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+	filter: invert(100%);
+}
+div#navbarNav{
+	flex-grow: initial;
+}
+.carousel-caption.d-md-block.textslide{
+	font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 5px 2px 10px #000;
+    padding-top: 1.25rem;
+    padding-bottom: 3.25rem;
+}
+.container.seccion0{
+	padding: 5% 0;
+}
+.container-fluid.seccion1{
+	padding: 5% 0;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: white;
+	background-color: #ADCA2E;
+}
+.logo-blanco {
+	max-width: 400px;
+}
+.container.seccion2{
+	padding: 5%;
+}
+.container.seccion3{
+	padding: 5%;
+}
+.container.seccion4{
+	padding: 5%;
+}
+.container-fluid.seccion5{
+	padding: 3% 0;
+	color: white;
+	background-color: #414e93;
+}
+
+.container-fluid.seccion6{
+	padding: 3% 0;
+	color: white;
+	background-color: #414e93;
+}
+
+
+.tituloseccion {
+	font-weight: 700;
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 1px 1px 7px #343434;
+}
+.container-fluid.separador03{
+	height: 350px;
+	background: url('../img/petroleum.jpg');
+	background-position: top center;
+	background-size: cover;
+}
+.container-fluid.separador04{
+	height: 350px;
+	background: url('../img/petroleum2.jpg');
+	background-position: top center;
+	background-size: cover;
+}
+.container-fluid.separador05{
+	height: 350px;
+	background: url('../img/petroleum3.jpg');
+	background-position: top center;
+	background-size: cover;
+}
+.row.justify-content-center.altoseparador{
+	height: 350px;
+}
+.vineta-negra {
+	max-width: 40px;
+}
+.iconos {
+	max-width: 100px;
+}
+.iconosdescrip{
+	font-size: 0.9rem;
+    font-weight: 600;
+    color: green;
+}
+footer{
+	padding: 3%;
+	min-height: 250px;
+	color: white;
+	background-color: #454B94;
+}
+.logo-blanco-footer {
+	max-width: 200px;
+}
+.col-md-12.formulario {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+img.img-fluid.logo {
+  max-width: 100%;
+}
+button#contact-submit {
+	float: right;
+}
+img.img-fluid.bio {
+	border-radius: 5%;
+}
+p.bio {
+	font-size: 0.9rem;
+}
+.cargo {
+	display: inline-flex;
+}
+
+
+@media (max-width: 576px) {
+	.carousel-caption.d-md-block.textslide{
+		font-size: 1rem;
+	    font-weight: 700;
+	    text-shadow: 5px 2px 10px #000;
+	    padding-top: 1.25rem;
+		padding-bottom: 2.25rem;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	h2 {
+	    font-size: 1rem;
+	    line-height: 20px;
+	    color: grey;
+	}
+	img.img-fluid.logo {
+    max-width: 230px;
+  	}
+  	.tituloseccion {
+  	    font-size: 2rem;
+  	}
+  	.w-100 {
+  	    width: auto !important;
+  	    height: 300px;
+  	}
+  	.container-fluid.seccion1{
+		font-size: 0.9rem;
+		font-weight: 500;
+	}
+  	.vineta-negra {
+		max-width: 25px;
+	}
+	.container-fluid.seccion5 {
+		padding: 5% 0;
+	    text-align: center;
+	}
+	h2.cita {
+		color: white;
+	}
+	img.img-fluid.bio {
+		padding-bottom: 3%;
+		border-radius: 5%;
+	}
+}
+
